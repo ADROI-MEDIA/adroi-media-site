@@ -1,0 +1,50 @@
+# ==========================================
+# ADROI MEDIA - robots.txt
+# Systemy sprzedaży, marketing i technologia
+# ==========================================
+
+User-agent: *
+Allow: /
+# Pozwól wszystkim botom przeglądać stronę, w tym Googlebot, Bingbot itp.
+
+# ------------------------------------------
+# SPECJALNE POZWOLENIA DLA AI (AI-READINESS)
+# ------------------------------------------
+
+# OpenAI (ChatGPT / GPTBot)
+User-agent: GPTBot
+Allow: /
+
+# Google AI (Gemini / Google-Extended)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Claude / anthropic-ai)
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Common Crawl (używany do trenowania modeli AI)
+User-agent: CCBot
+Allow: /
+
+# ------------------------------------------
+# NARZĘDZIA ANALITYCZNE I SOCIAL MEDIA
+# ------------------------------------------
+
+# Pozwól na podgląd linków na Facebooku, LinkedInie i Twitterze
+User-agent: facebookexternalhit
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: Twitterbot
+Allow: /
+
+# ------------------------------------------
+# MAPA STRONY
+# ------------------------------------------
+
+Sitemap: https://adroi-media.pl/sitemap.xml
